@@ -1,0 +1,62 @@
+h1 {
+    color: crimson;
+    text-shadow: darkcyan 0.2ch 0.2ex 0.3ch;
+}
+
+h2 {
+    color: forestgreen;
+}
+
+label {
+    color: orangered;
+}
+
+label::after {
+    content: ':';
+    margin-right: 0.5ch;
+    margin-left: 0.5ch;
+}
+
+body {
+    background-color: snow;
+    font-family: "Comic sans MS";
+}
+
+table, table td, table th {
+    border: darkcyan solid 2px;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+.errorMessage{
+    color:darkred ;
+}
+
+.feels-temp{
+    color:grey;
+}
+
+.fond img{
+    background-color: rgba(128, 255, 0, 0.568);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.fond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#weather-result{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(210, 105, 30, 0.4);
+    border: 1px dashed black;
+    border-radius: 20px;
+    margin-top: 14px;
+}
